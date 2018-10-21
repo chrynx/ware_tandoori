@@ -1,0 +1,43 @@
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+
+    background: black;
+    color: white;
+    height: 7vh;
+    width: 100%;
+}
+
+#Navbar .logoBox {
+    width: 20%;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar .logoBox:hover {
+    cursor: pointer;
+}
+
+#Navbar .links {
+    width: 50%;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar .links .link {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar .links .link:hover {
+    background: #222;
+    cursor: pointer;
+}
+

@@ -1,0 +1,10 @@
+#Jumbotron {
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    margin: 50px;
+}
